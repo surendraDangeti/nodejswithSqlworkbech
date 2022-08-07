@@ -8,8 +8,8 @@ const app = express();
 
 app.use(bodyParser.json())
 
-app.use('/people', peopleRoutes);
 
+app.use('/people', peopleRoutes);
 
 // connect.query('')
 

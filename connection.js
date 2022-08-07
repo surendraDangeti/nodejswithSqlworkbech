@@ -7,7 +7,6 @@ var mysqlConnection = mysql.createConnection({
     database: 'edureka',
     multipleStatements: true,
 })
-
 mysqlConnection.connect((err)=>{
     if(err) {
         console.log('not connected')
